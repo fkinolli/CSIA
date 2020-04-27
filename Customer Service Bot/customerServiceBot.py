@@ -4,23 +4,22 @@ from returningCustomer import *
 from newCustomer import *
 
 #Connecting to the Database
-db = mysql.connector.connect(
-    host = "localhost",
-    user = "root",
-    passwd = "",
-    database = "CSIA"
-)
+#db = mysql.connector.connect(
+#    host = "localhost",
+#    user = "root",
+#    passwd = "",
+#    database = "CSIA"
+#)
 
 def bot ():
-    cName = input('Hello! To start off please enter your name: ')
-    print("Hello " + cName + "! Are you a returning customer or new customer?")
+    print("Hello Welcome to the [Company Name] support site! Are you a returning customer or new customer?")
     print("[1] Returning Customer \n[2] New Customer")
-    response = input("Please enter the number corresponding to your choice: ")
+    responseBot = input("Please enter the number corresponding to your choice: ")
 
-    if response == "1":
+    if responseBot == "1":
         returningCustomer()
 
-    elif response == "2":
+    elif responseBot == "2":
         newCustomer()
 
     else:

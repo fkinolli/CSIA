@@ -5,4 +5,4 @@ def returningCustomer():
     print("[1] Television Support")
     print("[2] Internet Support")
     print("[3] Connect to a Live Representative")
-    response = input("Enter the number corresponding to your choice: ")
+    responseReturning = input("Enter the number corresponding to your choice: ")
