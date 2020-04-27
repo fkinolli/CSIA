@@ -41,3 +41,6 @@ def bot ():
         time.sleep(1)
         bot()
 bot()
+
+
+#Consider PyQt for GUI, Otherwise Tkinter seems like best choice
