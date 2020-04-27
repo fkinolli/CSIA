@@ -28,4 +28,8 @@ def newCustomer():
         newCustomer()
 
 def newAccount():
-    
+    print("Awesome, I'm glad to see you're climbing aboard our ship, you won't be dissapointed!")
+    #Prompt Login Window
+
+def scheduleVisit():
+    print("")
